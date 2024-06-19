@@ -16,8 +16,10 @@ This project utilizes Python and Selenium for web scraping. It collects headline
 1. Clone the repository: `git clone https://github.com/riqqq/web_scraper_dashboard.git`
 2. Install dependencies: Make sure you have Python and pip installed, then run:
 `pip install flask matplotlib wordcloud textblob scikit-learn selenium webdriver-manager`
-3. Run the Flask application: `python app.py`
-4. Access the web interface at `http://localhost:5000` in your browser.
+3. Run `scraper.py`
+4. Run `process_data.py`
+5. Run the Flask application: `python app.py`
+6. Access the web interface at `http://localhost:5000` in your browser.
 
 ## Credits
 
